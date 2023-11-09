@@ -4,10 +4,10 @@ body{
     font-family: cursive;
 }
 .main{
-    background-color: #09e8f8;
+    /* background-color: #09e8f8; */
     padding-bottom: 250px;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 75vh;
 }
 nav {
     position:fixed ;
@@ -57,14 +57,14 @@ nav ul{
         margin-left: -25px;
         margin-right: -7px;
         text-align: center;
-        height: 100vh;
+        /* height: 100vh; */
         text-align: center;
         
         
     }
     
      nav{
-        width:40%;
+        width:50%;
         height: fit-content;
         margin: none;
         position: relative;
@@ -135,6 +135,7 @@ li a{
     padding-left: 25px;
     margin-right: 50px;
     font-weight: 700;
+    font-size: 25px;
     transition: 0.5s ease;
     text-transform: inherit;
 }
@@ -230,9 +231,14 @@ h5 span{
     color: white;
 }
 .container{
-    display:grid;
+    /* display:grid;
     grid-template-columns: 1.5fr 2fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
     
     /* margin-bottom: 100px; */
 
@@ -255,7 +261,8 @@ h5 span{
    width: 300px;
    border-radius: 50%;
    margin-top: 100px;
-   margin-left: 20%;
+   margin: auto;
+   
 
    /* box-shadow: 1px 1px 1px 1px black ; */
   
@@ -331,6 +338,7 @@ h5 span{
 .grid{
     height: 230px;
     width: 350px;
+    margin: 20px;
     
 }
 .grid:hover{
@@ -404,6 +412,7 @@ h5 span{
     align-items: center; */
     margin:20px auto;
     border-radius: 5px;
+    margin-left: 8px;
 }
 .edu-container{
     display: flex;
@@ -450,11 +459,11 @@ h5 span{
     padding-top: 0px;
     padding: 0px 25px 25px 25px;
     background-color: white;
+    overflow: hidden;
     border-radius: 15px;
     box-shadow:  0 0 5px #000000;
 }
 .respnsive{
-    /* margin-left: 3%; */
     text-align: center;
 } 
 
@@ -469,7 +478,6 @@ h5 span{
     color: black;
     background-color: #c4d9f0;
     overflow: hidden;
-    margin-right: 25px;
     
   }
 
