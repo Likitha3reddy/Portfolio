@@ -5,9 +5,9 @@ body{
 }
 .main{
     /* background-color: #09e8f8; */
-    padding-bottom: 250px;
+    padding-bottom: 10%;
     margin-bottom: 0px;
-    height: 75vh;
+    height: fit-content;
 }
 nav {
     position:fixed ;
@@ -15,7 +15,6 @@ nav {
     z-index: 10;
     background-color: rgb(119, 86, 86);
     width: 100%;
-    height: max-content;
 }
 
 nav ul{
@@ -57,7 +56,7 @@ nav ul{
         margin-left: -25px;
         margin-right: -7px;
         text-align: center;
-        /* height: 100vh; */
+        height: 100vh;
         text-align: center;
         
         
@@ -69,6 +68,7 @@ nav ul{
         margin: none;
         position: relative;
         left:-360px;
+        border-radius: 5px;
         
     }
     .tag{
